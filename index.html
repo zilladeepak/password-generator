@@ -1,0 +1,20 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Generate a <span class="light-green">random password</span></h1>
+            <p style="font-size:20px; ">Never use an insecure password again.</p>
+            <button class= "pswd-btn" onclick="pswdBtn()">Generate Passwords</button>
+            <label for="pswd-length">
+            <input type="number" id="pswd-length" min="5" max="15" value="5" name="pswd-length">Password length
+            </label>
+            <hr class="underline">
+            <div class="pswd-container">
+                <p class="light-green" id="pswd-one">#1Password</p>
+                <p class="light-green" id="pswd-two">#2Password</p>
+            </div>
+        <script src="index.js"></script>
+    </body>
+</html>
